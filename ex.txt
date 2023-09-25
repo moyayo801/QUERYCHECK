@@ -1,0 +1,77 @@
+SELECT * FROM employees;/
+
+
+SELECT * FROM employees/
+
+
+SELECT * FROM orders WHERE customer_id = 123;/
+
+
+SELECT * FROM products WHERE (category = 'Electronics' AND price < 500) OR (category = 'Clothing' AND stock > 10);/
+
+
+SELECT * FROM products WHERE category IN (SELECT category FROM popular_categories);/
+
+
+SELECT DISTINCT customers.name, orders.order_id FROM customers INNER JOIN orders ON customers.customer_id = orders.customer_id;/
+
+
+SELECT * FROM MaTable;/
+
+
+SELECT Nom, Prenom FROM Employes;/
+
+
+SELECT * FROM Produits WHERE Prix > 10;/
+
+
+SELECT Employes.Nom, Departements.Nom FROM Employes JOIN Departements ON Employes.DepartementID = Departements.ID;/
+
+
+INSERT INTO Clients (Nom, Email) VALUES ('John Doe', 'john@example.com');/
+
+
+SELECT Pays, COUNT(*) FROM Clients GROUP BY Pays;/
+
+
+SELECT * FROM TableInexistante;/
+
+
+* FROM Employes;/
+
+
+SELECT * FROM Produits WHERE;/
+
+
+SELECT Employes.Nom, Departements.Nom FROM Employes JOIN Departements;/
+
+
+INSERT INTO Clients (Nom) VALUES;/
+
+
+SELECT Pays, COUNT(*) FROM Clients GROUP BY Ville;/
+
+
+SELECT Nom, Prenom FROM Employes ORDER BY Nom ASC;/
+
+
+SELECT Nom, Prenom FROM Employes ORDER BY Salaire DESC;/
+
+
+UPDATE Produits SET Quantite = 100 WHERE Nom = 'Produit1';/
+
+
+SELECT * FROM Clients ORDER BY;/
+
+
+UPDATE Employes SET Salaire;/
+
+
+SELECT Nom, Prenom FROM Employes ORDER Nom ASC;/
+
+
+UPDATE Employes SET Salaire = 5000 WHERE;/
+
+
+
+
